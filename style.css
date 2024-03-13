@@ -1,0 +1,33 @@
+.login {
+    background-color: #6ec531;
+    height:20%
+  
+  }
+  #welcome{
+      display: flex;
+      gap:5%;
+      align-items: center;
+  }.welcome{
+      color:white;
+      font-size: 18px;
+      padding:8px
+  }
+  .language{
+      color:white;
+      font-size: 18px;
+      padding:8px
+  }
+  a{
+      color:white;
+      font-size: 18px;
+      padding:8px
+  }
+  .navbar{
+      display: flex;
+      gap:35%;
+  }
+  
+  ul {
+      display: flex;
+      gap:35%;  
+  }
