@@ -1,33 +1,128 @@
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.main-wrapper {
+  padding: 16px;
+}
 .login {
-    background-color: #6ec531;
-    height:20%
-  
-  }
-  #welcome{
-      display: flex;
-      gap:5%;
-      align-items: center;
-  }.welcome{
-      color:white;
-      font-size: 18px;
-      padding:8px
-  }
-  .language{
-      color:white;
-      font-size: 18px;
-      padding:8px
-  }
-  a{
-      color:white;
-      font-size: 18px;
-      padding:8px
-  }
-  .navbar{
-      display: flex;
-      gap:35%;
-  }
-  
-  ul {
-      display: flex;
-      gap:35%;  
-  }
+  background-color: #6ec531;
+  height: 20%;
+}
+#welcome {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+.welcome {
+  color: white;
+  font-size: 18px;
+  padding: 8px;
+}
+.language {
+  color: white;
+  font-size: 18px;
+  padding: 8px;
+}
+a {
+  color: white;
+  font-size: 18px;
+  padding: 8px;
+}
+.navbar {
+  display: flex;
+  gap: 5%;
+}
+
+ul {
+  display: flex;
+  gap: 35%;
+  list-style-type: none;
+}
+.summer {
+  display: flex;
+}
+.terradium {
+  width: 80%;
+  height: 150px;
+}
+.orchid {
+  width: 70%;
+  height: 150px;
+}
+.inspiration {
+  width: 70%;
+  height: 150px;
+}
+.plants {
+  display: flex;
+}
+.house {
+  width: 70%;
+  height: 150px;
+}
+.spring-store {
+  width: 70%;
+  height: 150px;
+}
+#sale {
+  display: flex;
+}
+.potted {
+  width: 70%;
+  height: 150px;
+}
+.gravida {
+  width: 40%;
+  height: 80px;
+}
+.drift {
+  width: 70%;
+  height: 150px;
+}
+.all {
+  display: flex;
+}
+.six-pl {
+  display: flex;
+  flex-wrap: wrap;
+}
+.three {
+  display: flex;
+  flex-wrap: wrap;
+}
+.featured-product {
+  padding: 16px;
+}
+.living-img {
+  width: 80%;
+  height: 150px;
+}
+.amaizing-spring {
+  display: flex;
+}
+.four-two {
+  display: flex;
+  flex-wrap: wrap;
+}
+.four-one {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cactus-tree {
+  width: 80%;
+  height: 150px;
+  padding: 16px;
+}
+.tree-img {
+  width: 80%;
+  height: 150px;
+}
+#cactus-tree {
+  display: flex;
+}
+.urban-img{
+width:80%;
+height:200px
+}
