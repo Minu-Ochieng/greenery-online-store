@@ -454,4 +454,31 @@ span {
   #cactus-tree {
     display: block;
   }
+  .blog {
+    display: block;
+  }
+  .text-testimonies {
+    display: block;
+  }
+  .footer {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+  #welcome {
+    text-align: center;
+    display: block;
+  }
+  .urban-img {
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+  }
+  .urban {
+    padding: 5px;
+  }
+  .housejournal{
+    padding: 5px;
+  }
+  
 }
