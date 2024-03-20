@@ -92,6 +92,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+.newsletter {
+  display: flex;
+  flex-direction: column;
+}
 .word-inspiration {
   display: flex;
   flex-direction: column;
@@ -169,7 +173,7 @@ li {
 
 .gravida {
   width: 70%;
-  height: 70%;
+  /* height: 70%; */
   padding: 16px;
 }
 .sem {
@@ -273,7 +277,7 @@ ul {
   gap: 5%;
   list-style-type: none;
 }
-ul .info {
+.info {
   display: flex;
   flex-direction: column;
 }
@@ -281,6 +285,10 @@ ul .info {
   display: flex;
   flex-direction: column;
 }
+.menu {
+  list-style: none;
+}
+
 .footer {
   display: flex;
   margin: 5%;
@@ -291,34 +299,159 @@ button {
   border: none;
   color: white;
 }
+.communicate {
+  text-align: center;
+  padding: 42px;
+}
+.sub-heading {
+  font-weight: bold;
+  font-size: 25px;
+}
+.testimonals {
+  color: #6ec531;
+}
 .blog {
   display: flex;
   justify-content: space-evenly;
 }
-
-@media screen and (min-width: 1024px) {
+.test-image-1 {
+  width: 40%;
+  height: 40%;
+  border-radius: 10%;
+  object-fit: cover;
 }
-
-/* For Mobile Portrait View */
-@media screen and (max-device-width: 480px) and (orientation: portrait) {
+.test-image-2 {
+  width: 60%;
+  height: 60%;
+  border-radius: 10%;
 }
-
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px) and (orientation: landscape) {
+.test-image-3 {
+  width: 40%;
+  height: 40%;
+  border-radius: 10%;
+  object-fit: cover;
 }
-
-/* For Mobile Phones Portrait or Landscape View */
-@media screen and (max-device-width: 640px) {
+.text-testimonies {
+  display: flex;
+  justify-content: space-evenly;
 }
-
-/* For iPhone 4 Portrait or Landscape View */
-@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+.left-arrow,
+.arrow {
+  padding: 16px;
 }
-
-/* For iPhone 5 Portrait or Landscape View */
-@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+.test-image-three {
+  justify-content: end;
 }
+.text,
+.developer {
+  text-align: center;
+}
+.developer {
+  color: #6ec531;
+}
+span {
+  color: #000;
+}
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .login {
+    display: flex;
+    font-size: 12px;
+    height: 50%;
+  }
+  .main-wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .categories {
+    display: flex;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
 
-/* For iPhone 6 and 6 plus Portrait or Landscape View */
-@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+  .terradium {
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .fall {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f8f8f8;
+  }
+  .collection {
+    font-size: 25px;
+  }
+  .other {
+    font-size: 15px;
+    font-weight: 200;
+  }
+  .plants {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+  .grow {
+    padding: 13%;
+  }
+  .orchid {
+    width: 60%;
+    height: 46%;
+  }
+  #welcome {
+    display: inline-block;
+  }
+  .summer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plants {
+    display: flex;
+    flex-direction: column;
+  }
+  #sale {
+    display: block;
+  }
+  .spring-store {
+    color: #000;
+    font-size: 15px;
+  }
+  .uza {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 4px;
+  }
+  .zote {
+    font-size: 17px;
+    padding-top: 4px;
+  }
+  .three-pl {
+    display: block;
+  }
+  .gravida {
+    width: 100%;
+  }
+  .all {
+    display: block;
+  }
+  .container {
+    display: block;
+  }
+  .spring-heading {
+    font-size: 23px;
+  }
+  .spring-images {
+    display: flex;
+    flex-direction: column;
+  }
+  #cactus-tree {
+    display: block;
+  }
 }
