@@ -3,147 +3,271 @@ body {
   margin-right: 20%;
 }
 
-/* .main-wrapper {
-  padding: 16px;
-} */
+.main-wrapper {
+  padding: 0 px;
+  margin: 0;
+}
 .login {
   background-color: #6ec531;
   height: 20%;
 }
 #welcome {
   display: flex;
-  gap: 5%;
-  align-items: center;
+  justify-content: space-between;
 }
 .welcome {
   color: white;
   font-size: 18px;
   padding: 8px;
+  justify-content: start;
 }
 .language {
   color: white;
   font-size: 18px;
+  gap: 5%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+.add-cart {
+  display: flex;
+  justify-content: end;
+}
+.categories {
+  display: flex;
+  padding: 8px;
+  gap: 3%;
+}
+.search,
+.like,
+.cart {
+  width: 30px;
+  height: 25px;
+  align-items: end;
+}
+.green {
+  color: #81a778;
+}
+.summer {
+  display: flex;
+  justify-content: space-around;
+}
+.fall {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #f8f8f8;
+}
+.collection {
+  font-size: 30px;
+  font-family: "Sansita Swashed", system-ui;
+}
+.other {
+  font-size: 30px;
+  font-family: "Molle", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+.terradium {
+  width: 60%;
+  height: 60%;
+}
+.plants {
+  display: flex;
+  flex-direction: column;
+}
+#inspirations {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f8f8;
   padding: 8px;
 }
+.word {
+  display: flex;
+  flex-direction: column;
+}
+.word-inspiration {
+  display: flex;
+  flex-direction: column;
+}
+.price {
+  color: #669a5a;
+  font-size: 25px;
+}
+.inspiration {
+  width: 50%;
+  height: 45%;
+  object-fit: cover;
+}
+
+.uza {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 8px;
+}
+.Cacti {
+  width: 40%;
+  height: 30%;
+}
+.spring-store {
+  color: #c8c6c7;
+  font-size: 25px;
+}
+.zote {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+
 a {
   color: white;
   font-size: 18px;
   padding: 8px;
 }
-.navbar {
+
+li {
   display: flex;
-  gap: 5%;
+  padding: 8px;
+  font-weight: bold;
 }
 .grow {
   background-color: #f8f8f8;
   display: flex;
-  flex-wrap: wrap;
 }
-.collection {
-  font-size: 30px;
-}
-ul .home {
+.three-pl {
   display: flex;
-  gap: 5%;
-  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-.summer {
+
+.home {
   display: flex;
+  justify-content: space-between;
 }
-.fall {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #f8f8f8;
-}
-.terradium {
-  width: 90%;
-  height: 250px;
-}
-.inspirations {
-  display: flexbox;
-  flex-direction: column;
-}
-.inspiration {
-  padding: -6px;
-}
+
 .orchid {
-  width: 70%;
-  height: 150px;
+  width: 50%;
+  height: 45%;
 }
-.inspiration {
-  width: 70%;
-  height: 150px;
-}
-.plants {
-  display: flex;
-}
+
 .house {
-  width: 70%;
-  height: 150px;
+  width: 50%;
+  height: 30%;
 }
-.spring-store {
-  width: 70%;
-  height: 150px;
-}
+
 #sale {
   display: flex;
+  flex-direction: row;
 }
-.potted {
-  width: 70%;
-  height: 150px;
-}
+
 .gravida {
-  width: 40%;
-  height: 80px;
+  width: 70%;
+  height: 70%;
+  padding: 16px;
 }
+.sem {
+  width: 70%;
+  height: 70%;
+}
+
 .drift {
-  width: 80%;
-  height: 150px;
+  width: 70%;
+  height: 60%;
+}
+#drift {
+  flex-basis: 50%;
 }
 .all {
   display: flex;
 }
-.six-pl {
-  display: flex;
-  flex-wrap: wrap;
-}
-.three {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .featured-product {
   padding: 16px;
 }
+.feature {
+  text-align: center;
+}
+.product {
+  font-family: "Shippori Mincho", serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 3%;
+}
+.best-product {
+  color: #6ec531;
+}
+.commodo,
+.auctor,
+#gravida {
+  font-size: 13px;
+}
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+.container {
+  display: flex;
+}
+.tree-bottle {
+  flex-basis: 70%;
+}
+.cactus-content {
+  flex-basis: 50%;
+}
+.cactus-img {
+  flex-basis: 50%;
+}
+
+.living {
+  flex-basis: 30%;
+}
 .living-img {
-  width: 80%;
-  height: 150px;
+  width: 100%;
+  height: 100%;
+}
+.spring-heading {
+  font-size: 30px;
+  font-weight: bold;
 }
 .amaizing-spring {
   display: flex;
+  flex-direction: column;
 }
-.four-two {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .four-one {
   display: flex;
-  flex-wrap: wrap;
+  padding: 3px;
+}
+.spring-images {
+  display: flex;
+}
+#cactus-tree {
+  padding: 16px;
+  margin: 5%;
 }
 .cactus-tree {
-  width: 100%;
-  height: 150px;
-  padding: 16px;
+  width: 60%;
+  height: 60%;
+  padding: 8px;
 }
 .tree-img {
   width: 80%;
-  height: 150px;
+  height: 70%;
 }
 #cactus-tree {
   display: flex;
 }
 .urban-img {
-  width: 80%;
-  height: 200px;
+  width: 70%;
+  height: 70%;
 }
 ul {
   gap: 5%;
@@ -159,77 +283,42 @@ ul .info {
 }
 .footer {
   display: flex;
-  gap: 5%;
+  margin: 5%;
+  padding: 8px;
 }
 button {
   background-color: #6ec531;
   border: none;
   color: white;
 }
+.blog {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 @media screen and (min-width: 1024px) {
-  .gfg-div {
-    background-color: #63c971;
-    color: #fff;
-  }
 }
 
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
-  .gfg-div {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    color: #fff;
-  }
 }
 
 /* For Mobile Landscape View */
 @media screen and (max-device-width: 640px) and (orientation: landscape) {
-  .gfg-div {
-    width: 400px;
-    height: 200px;
-    background-color: cyan;
-    color: black;
-  }
 }
 
 /* For Mobile Phones Portrait or Landscape View */
 @media screen and (max-device-width: 640px) {
-  .gfg-div {
-    width: 400px;
-    height: 200px;
-    background-color: chartreuse;
-    color: black;
-  }
 }
 
 /* For iPhone 4 Portrait or Landscape View */
 @media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-  .gfg-div {
-    width: 400px;
-    height: 400px;
-    background-color: brown;
-    color: black;
-  }
 }
 
 /* For iPhone 5 Portrait or Landscape View */
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-  .gfg-div {
-    width: 400px;
-    height: 400px;
-    background-color: cornflowerblue;
-    color: black;
-  }
 }
 
 /* For iPhone 6 and 6 plus Portrait or Landscape View */
 @media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
-  .gfg-div {
-    width: 400px;
-    height: 400px;
-    background-color: darkgoldenrod;
-    color: black;
-  }
 }
